@@ -16,7 +16,7 @@ setopt share_history
 # -----------------------------
 
 ### エディタをmicroに設定
-export EDITOR=micro
+export EDITOR="micro"
 
 ### PATH追加
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
