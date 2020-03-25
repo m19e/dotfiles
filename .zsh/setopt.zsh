@@ -17,10 +17,13 @@ setopt share_history
 
 ### エディタをmicroに設定
 export EDITOR=micro
+export VISUAL=micro
 
 ### PATH追加
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
+export GOPATH="$HOME/go"
+export PATH="$HOME/.nodenv/versions/12.14.0/bin:$PATH"
 
 # 色の設定
 export LSCOLORS=Exfxcxdxbxegedabagacad
