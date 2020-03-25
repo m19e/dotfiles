@@ -42,3 +42,6 @@ alias nr='npm run'
 alias nrd='npm run dev'
 alias nrs='npm run serve'
 alias nrb='npm run build'
+
+### Docker
+alias dc='docker-compose'
