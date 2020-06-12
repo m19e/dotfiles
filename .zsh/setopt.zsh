@@ -15,9 +15,9 @@ setopt share_history
 # Environment variable
 # -----------------------------
 
-### エディタをmicroに設定
-export EDITOR=micro
-export VISUAL=micro
+### エディタをvimに設定
+export EDITOR=vim
+export VISUAL=vim
 
 ### PATH追加
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
@@ -39,7 +39,7 @@ export LSCOLORS=Exfxcxdxbxegedabagacad
 export LS_COLORS='di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
 
 : << EOF
-DIRACTION_EDITOR=micro
+DIRACTION_EDITOR=vim
 DIRACTION_BROWSER=
 DIRACTION_AUTO_CONFIG=true
 ENHANCD_DISABLE_DOT=0
@@ -53,8 +53,8 @@ ENHANCD_DOT_SHOW_FULLPATH=0
 ENHANCD_USE_FUZZY_MATCH=1
 ENHANCD_COMMAND=cd
 ENHANCD_AWK=awk
-EDITOR=micro
-VISUAL=micro
+EDITOR=vim
+VISUAL=vim
 EOF
 
 # -----------------------------
