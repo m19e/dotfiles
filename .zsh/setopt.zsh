@@ -25,6 +25,13 @@ export PATH="$HOME/go/bin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$HOME/.nodenv/versions/12.14.0/bin:$PATH"
 
+export PATH="$GOENV_ROOT/bin:$PATH"
+export GOENV_ROOT="$HOME/.goenv"
+eval "$(goenv init -)"
+export PATH="$GOROOT/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
+export GOENV_DISABLE_GOPATH=1
+
 # 色の設定
 export LSCOLORS=Exfxcxdxbxegedabagacad
 
