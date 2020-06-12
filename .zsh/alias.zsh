@@ -46,3 +46,4 @@ alias nrb='npm run build'
 
 ### Docker
 alias dc='docker-compose'
+alias drmif='docker rmi $(docker images -f "dangling=true" -q) -f'
