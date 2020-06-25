@@ -24,6 +24,7 @@ export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$HOME/.nodenv/versions/12.14.0/bin:$PATH"
+export PATH="$PATH:`yarn global bin`"
 
 export PATH="$GOENV_ROOT/bin:$PATH"
 export GOENV_ROOT="$HOME/.goenv"
