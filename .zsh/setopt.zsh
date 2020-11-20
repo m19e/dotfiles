@@ -15,6 +15,10 @@ setopt share_history
 # Environment variable
 # -----------------------------
 
+### XLaunch
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0.0
+export LIBGL_ALWAYS_INDIRECT=1
+
 ### エディタをvimに設定
 export EDITOR=vim
 export VISUAL=vim
