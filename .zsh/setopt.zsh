@@ -118,6 +118,9 @@ setopt no_clobber
 # パスの最後のスラッシュを削除しない
 setopt noautoremoveslash
 
+# Resolve `no match found`
+setopt +o nomatch
+
 # -----------------------------
 # Prompt
 # -----------------------------
