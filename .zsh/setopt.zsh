@@ -36,6 +36,12 @@ eval "$(goenv init -)"
 export PATH="$GOROOT/bin:$PATH"
 export PATH="$PATH:$GOPATH/bin"
 export GOENV_DISABLE_GOPATH=1
+### anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
+### deno
+export DENO_INSTALL="/home/m19e/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
 
 # 色の設定
 export LSCOLORS=Exfxcxdxbxegedabagacad
